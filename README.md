@@ -2,7 +2,7 @@
 Practica 4 Marcos Encinas Lozano Sistemas Operativos 2/6/26
 
 
-#+ REQUISITOS
+# + REQUISITOS
 Linux / WSL
 
 Python 3 (para ejecutar el servidor Flask)
@@ -17,7 +17,7 @@ Permisos de ejecución para scripts .sh
 
 Conexión local mediante HTTP (127.0.0.1:5000)
 
-#+ ARCHIVOS PRINCIPALES
+# + ARCHIVOS PRINCIPALES
 
 server.py — Servidor en Python que recibe matrices interpoladas y genera imágenes táctiles usando Matplotlib.
 
@@ -34,7 +34,7 @@ tactile_captures_50.json — Archivo con las 50 capturas táctiles originales.
 images/ — Carpeta generada automáticamente con las imágenes:
 capture_0.png, capture_1.png, … capture_49.png.
 
-#+ COMO EJECUTAR LA PRACTICA
+# + COMO EJECUTAR LA PRACTICA
 1. Activar el entorno virtual (Python):  
 Debe hacerse en una terminal independiente.
 
@@ -64,7 +64,7 @@ capture_1.png
 ...
 capture_49.png
 
-#+ SALIDA GENERADA
+# + SALIDA GENERADA
 El servidor Python genera automáticamente 50 imágenes táctiles, una por cada captura enviada desde el cliente C++.
 
 Cada imagen incluye:
